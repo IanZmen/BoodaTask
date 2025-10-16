@@ -1,0 +1,25 @@
+{
+  "name": "boodatask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^14.0.0",
+    "dotenv": "^17.2.3",
+    "koa": "^3.0.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa2-cors": "^2.0.6",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
